@@ -12,10 +12,10 @@ from django.shortcuts import render
 
 def home(request):
    
-    return render(request, 'home.html')
+    return render(request, 'cars/home.html')
 
-def car_details(request):
+def car(request):
    
-    return render(request, 'car_details.html')
+    return render(request, 'cars/car.html')
 
 

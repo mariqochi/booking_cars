@@ -11,5 +11,5 @@ from .import views
 urlpatterns = [
     
     path('', views.home, name='home'), 
-    path('car_details', views.car_details, name='car_details')    #car_detail=rooms
+    path('car', views.car,  name='car')    
 ]
